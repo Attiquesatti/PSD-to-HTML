@@ -1,0 +1,149 @@
+.logo{
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+.body{
+    background-image:url('C:/Users/margalla/OneDrive/Desktop/tasks/Assets/img/home-bg.jpg'); 
+    background-repeat: no-repeat;
+}
+.tagline{
+    color: white;
+}
+.section1{
+    padding-top: 40px;
+} 
+.section1 h3{ 
+    padding-top: 20px;
+} 
+.card-body{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    margin: 30px;
+    border-bottom: 5px solid red;
+}
+.form-inputs{
+    padding:25px;
+}
+.section2 img{
+    max-height: 500px;
+} 
+.block1 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #f9f9f9;
+}
+.icon-wrapper {
+    border-radius: 50px 10px;
+    border: 1px solid black;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 1px 1px;
+    display: flex;
+    justify-content: center;
+}
+.section3{
+    padding:50px 0px 50px 0px;
+    background-color: black;
+}
+.box {
+    height: 150px;
+    border-radius: 65px 1px;
+    background-color: black;
+    border: 1px solid white;
+}
+/* .Practice-area h3{
+    border-bottom: 2px solid red;
+} */
+.Practice-area .card-body{
+    border-bottom: none;
+    background-color: white;
+}
+.Our-services{
+    background-color: aliceblue;
+}
+.Our-services .card-body{
+    border-bottom: none;
+    background-color: white;
+    margin: 0px;
+}
+
+.half-title {
+    display: inline-block;
+    position: relative;
+}
+.half-title:after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3px;
+    margin-top: .75rem;
+    background: Red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-services {
+    height:50px;
+    width:50px;
+    border-radius: 25px 1px;
+    border: 2px solid orangered;
+    margin: auto;
+    padding: auto;
+}
+.Our-attorneys .card-body{
+    border-bottom: none;
+    background-color: white;
+    margin: 0px;
+}
+.consultation{
+    background-color:#b8b9bb;
+    /* opacity: 0.4;
+    z-index: -1; */
+}
+.consultation h3{
+    color: solid black;
+    opacity: 100%;
+}
+.our-packages {
+    background-color:aliceblue;
+}
+.our-packages p{
+    color:black;
+    font-weight: 400;
+}
+.our-packages .card-body{
+    background-color: white;
+    font-weight: 400;
+    border-bottom: none;
+}
+.our-packages .card-body h2{
+    color: red;
+
+}
+.our-packages .card-body a{
+    background-color: red;
+}
+.get-free-quote{
+    background-color: white;
+}
+.get-free-quote p{
+    font-weight: 400;
+}
+.get-free-quote .icon-wrapper{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: none;
+    border-color: orangered;
+    margin:0;
+    padding:0;
+}
+.send-msg{
+    background-color: red;
+}
